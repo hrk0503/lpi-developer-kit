@@ -1,4 +1,6 @@
-\# Level 3 Submission — Abhinav Chaudhary
+\## Submission Level
+
+\*\*level-3\*\*
 
 
 
@@ -8,37 +10,31 @@ https://github.com/abhichaudhary256-sudo/lpi-developer-kit
 
 
 
+\## What I Did
+
+
+
+Built a Smart Life Analyzer API using Node.js and Express.
+
+
+
+Features:
+
+\- Score calculation
+
+\- Classification (Excellent / Good / Needs Improvement)
+
+\- Smart suggestions based on input
+
+\- Trend tracking using session history
+
+
+
 \## How to Run
 
 
 
 npm install  
 
-node examples/level3.js  
-
-
-
-\## What I Built
-
-
-
-\- Smart Life Analyzer API
-
-\- Score calculation
-
-\- Classification system
-
-\- Smart suggestions
-
-\- Trend tracking (history-based)
-
-
-
-\## Status
-
-
-
-Working locally  
-
-API tested  
+node examples/level3.cjs
 
