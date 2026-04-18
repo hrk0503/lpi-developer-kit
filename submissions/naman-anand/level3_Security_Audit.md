@@ -305,13 +305,13 @@ if __name__ == "__main__":
 
 | # | Vulnerability | OWASP Category | Severity | Lines |
 |---|--------------|----------------|----------|-------|
-| 1 | OS Command Injection (RCE) | A03 — Injection | 🔴 Critical | 63-68 |
-| 2 | SQL Injection | A03 — Injection | 🔴 Critical | 38-40 |
-| 3 | Secrets & Env Leakage | A02 — Crypto Failures / A05 — Misconfig | 🔴 Critical | 22-24, 45-51 |
-| 4 | Broken Authentication | A07 — Auth Failures | 🟠 High | 55-60 |
-| 5 | Reflected XSS | A03 — Injection | 🟠 High | 80 |
-| 6 | IDOR — Broken Access Control | A01 — Broken Access Control | 🟡 Medium | 71-81 |
-| 7 | Network Exposure + Debug Console | A05 — Security Misconfig | 🟡 Medium | 87 |
+| 1 | OS Command Injection (RCE) | A03 — Injection |  Critical | 63-68 |
+| 2 | SQL Injection | A03 — Injection |  Critical | 38-40 |
+| 3 | Secrets & Env Leakage | A02 — Crypto Failures / A05 — Misconfig |  Critical | 22-24, 45-51 |
+| 4 | Broken Authentication | A07 — Auth Failures |  High | 55-60 |
+| 5 | Reflected XSS | A03 — Injection |  High | 80 |
+| 6 | IDOR — Broken Access Control | A01 — Broken Access Control |  Medium | 71-81 |
+| 7 | Network Exposure + Debug Console | A05 — Security Misconfig |  Medium | 87 |
 
 
 
