@@ -1,40 +1,27 @@
-\## Submission Level
+# Level 3 Submission
 
-\*\*level-3\*\*
+## Name
 
+Abhinav Chaudhary
 
+## Project
 
-\## Repo Link
+Smart Life Analyzer API
 
-https://github.com/abhichaudhary256-sudo/lpi-developer-kit
+## Description
 
+Built using Node.js and Express. Analyzes lifestyle inputs and provides score, classification, suggestions, and trends.
 
+## Features
 
-\## What I Did
+* Score calculation
+* Classification (Excellent / Good / Needs Improvement)
+* Smart suggestions
+* Trend tracking
 
+## How to Run
 
-
-Built a Smart Life Analyzer API using Node.js and Express.
-
-
-
-Features:
-
-\- Score calculation
-
-\- Classification (Excellent / Good / Needs Improvement)
-
-\- Smart suggestions based on input
-
-\- Trend tracking using session history
-
-
-
-\## How to Run
-
-
-
-npm install  
-
-node examples/level3.cjs
-
+```bash
+npm install
+node examples/level3.js
+```
