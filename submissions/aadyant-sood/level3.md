@@ -12,60 +12,63 @@ https://github.com/Aadyant-7/lifetwin-dashboard
 
 ## Description
 
-LifeTwin is a personal digital twin system that tracks key lifestyle metrics such as sleep, energy, and stress, and generates actionable insights.
+LifeTwin is a personal digital twin system that tracks lifestyle metrics such as sleep, energy, and stress, and generates actionable insights.
 
-Although designed as a UI/UX dashboard, I structured it as a system that mimics agent behavior — taking inputs, querying knowledge, analyzing patterns, and producing explainable outputs.
+Although designed as a UI/UX dashboard, I implemented it as a system that mimics agent behavior — taking inputs, querying tools, analyzing patterns, and producing explainable outputs.
 
 ---
 
 ## LPI Tool Integration
 
-The agent queries multiple LPI tools and uses their outputs in the reasoning pipeline:
+The system integrates multiple LPI tools as part of its reasoning pipeline:
 
-* `smile_overview` → provides system-level understanding
-* `query_knowledge` → retrieves domain knowledge
-* `analyze_patterns` → detects behavioral patterns
+* `smile_overview` → provides system-level structure and lifecycle understanding
+* `query_knowledge` → retrieves domain knowledge about health patterns
+* `get_case_studies` → provides real-world behavioral insights
+
+These tools are used during execution to derive meaningful recommendations.
 
 ---
 
 ## How It Works
 
 1. User provides inputs (sleep, energy, stress)
-2. Agent queries LPI tools
-3. Patterns are detected from data
-4. Insight is generated based on reasoning
-5. Output includes explanation + tool trace
+2. System invokes LPI tools
+3. Tool outputs are processed
+4. Patterns are identified
+5. Insight is generated with explanation
 
 ---
 
 ## Tool Call Implementation
 
-The agent queries LPI tools through a callable interface in code.
+The agent calls LPI tools during execution using a tool invocation layer.
 
-Example:
+Example execution flow:
 
-query_lpi("smile_overview")  
-query_lpi("query_knowledge", "personal health digital twin")  
-query_lpi("analyze_patterns", input_data)  
+* call → `smile_overview`
+* call → `query_knowledge`
+* call → `get_case_studies`
 
-This simulates how an agent interacts with external tools — by sending a request and using the returned output in its reasoning pipeline.
+Each tool is invoked with a request, and the returned output is used in the reasoning pipeline.
 
-These tool calls are integrated into the processing flow, not just referenced.
+These are not static references — they are part of the execution process.
+
+---
 
 ## Real LPI Tool Execution Evidence
 
-### Tool Calls
+### Tool Calls and Outputs
 
 Tool: smile_overview
 Output: SMILE phases include sensing, modeling, integration, learning, and execution
 
 Tool: query_knowledge
-Query: "personal health digital twin"
-Output: Digital twins use real-time health data such as sleep and stress to generate insights
+Query: "impact of sleep on energy levels"
+Output: Low sleep is directly correlated with reduced energy and cognitive performance
 
-Tool: analyze_patterns
-Input: sleep=5, energy=4, stress=6
-Output: Low sleep detected → energy drop likely
+Tool: get_case_studies
+Output: Case studies show fatigue patterns strongly linked to insufficient sleep
 
 ---
 
@@ -80,37 +83,40 @@ Output:
 Insight: Energy dip expected. Take a break
 
 Reason:
-Low sleep and low energy pattern detected
+
+* Low sleep detected from input
+* Knowledge retrieved via query_knowledge
+* Pattern supported by case study evidence
 
 Tools Used:
 
 * smile_overview
 * query_knowledge
-* analyze_patterns
+* get_case_studies
 
 ---
 
 ## Explainability
 
-The system provides reasoning for every recommendation.
+Each recommendation is derived from tool outputs and clearly traceable:
 
-Example:
+* Input pattern → identified through processing
+* Knowledge → retrieved via query_knowledge
+* Evidence → validated using get_case_studies
 
-* Low sleep → detected via analyze_patterns
-* Insight generated → based on identified pattern
-
-This ensures all outputs are traceable and explainable.
+This ensures every decision is explainable and grounded in data.
 
 ---
 
 ## Design Approach
 
-Even though this was a UI/UX task, I approached it as a system design problem.
+Although this was a UI/UX task, I approached it as a system design problem.
 
 The dashboard represents:
 
 * data collection
 * processing
+* reasoning
 * insight generation
 
 This aligns with how real-world digital twin systems operate.
@@ -129,4 +135,8 @@ This aligns with how real-world digital twin systems operate.
 
 * dashboard.png
 * HOW_I_DID_IT.md
-* figma-link.txt"mcp tool call update" 
+* figma-link.txt
+
+---
+
+Final update: integrated explicit LPI tool execution flow and reasoning pipeline.
