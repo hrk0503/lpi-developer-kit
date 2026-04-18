@@ -15,9 +15,9 @@ Here is a quick severity breakdown before I walk through each finding:
 
 | Severity | Count |
 |----------|-------|
-| 🔴 Critical | 3 |
-| 🟠 High | 2 |
-| 🟡 Medium | 2 |
+|  Critical | 3 |
+|  High | 2 |
+|  Medium | 2 |
 
 
 
