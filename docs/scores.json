@@ -13,7 +13,7 @@
     "score": 11,
     "max": 13,
     "pct": 85,
-    "updated": "2026-04-17T17:14:48.876Z"
+    "updated": "2026-04-19T18:24:56.588Z"
   },
   "kailash-narayana-prasad": {
     "name": "Kailash Narayana Prasad",
@@ -141,7 +141,7 @@
     "score": 6,
     "max": 13,
     "pct": 46,
-    "updated": "2026-04-17T06:00:00.000Z"
+    "updated": "2026-04-19T19:31:57.552Z"
   },
   "peeyush-raj": {
     "name": "Peeyush Raj",
@@ -178,10 +178,10 @@
   "pranu-chandra": {
     "name": "Pranu Chandra",
     "level": 3,
-    "score": 1,
+    "score": 4,
     "max": 13,
-    "pct": 8,
-    "updated": "2026-04-17T07:27:54.758Z"
+    "pct": 31,
+    "updated": "2026-04-19T19:24:54.237Z"
   },
   "ankit-kumar-singh": {
     "name": "Ankit Kumar Singh",
@@ -210,10 +210,10 @@
   "sonal-yadav": {
     "name": "Sonal Yadav",
     "level": 3,
-    "score": 3,
+    "score": 10,
     "max": 13,
-    "pct": 23,
-    "updated": "2026-04-19T08:14:35.940Z"
+    "pct": 77,
+    "updated": "2026-04-19T19:25:23.961Z"
   },
   "priyanshu-bhardwaj": {
     "name": "Priyanshu Bhardwaj",
@@ -250,10 +250,10 @@
   "naman-anand": {
     "name": "Naman Anand",
     "level": 3,
-    "score": 2,
+    "score": 4,
     "max": 13,
-    "pct": 15,
-    "updated": "2026-04-18T17:33:21.668Z"
+    "pct": 31,
+    "updated": "2026-04-19T19:28:05.563Z"
   },
   "vusala-akanksha": {
     "name": "Vusala Akanksha",
@@ -341,15 +341,15 @@
     "score": 10,
     "max": 13,
     "pct": 77,
-    "updated": "2026-04-19T18:21:09.286Z"
+    "updated": "2026-04-19T18:52:05.015Z"
   },
   "aryan": {
     "name": "Aryan",
     "level": 3,
-    "score": 7,
+    "score": 10,
     "max": 13,
-    "pct": 54,
-    "updated": "2026-04-19T14:10:13.651Z"
+    "pct": 77,
+    "updated": "2026-04-19T18:40:57.840Z"
   },
   "level-2---farhan-ahmed-siddique": {
     "name": "level-2 - Farhan Ahmed Siddique",
@@ -374,5 +374,29 @@
     "max": 5,
     "pct": 100,
     "updated": "2026-04-19T13:56:00.872Z"
+  },
+  "lavanya-parashar": {
+    "name": "Lavanya Parashar",
+    "level": 2,
+    "score": 5,
+    "max": 5,
+    "pct": 100,
+    "updated": "2026-04-19T18:27:41.233Z"
+  },
+  "touqeer-hamdani": {
+    "name": "Touqeer Hamdani",
+    "level": 2,
+    "score": 5,
+    "max": 5,
+    "pct": 100,
+    "updated": "2026-04-19T19:26:16.405Z"
+  },
+  "srishti-gusain-(track-a)": {
+    "name": "Srishti Gusain (Track A)",
+    "level": 3,
+    "score": 9,
+    "max": 13,
+    "pct": 69,
+    "updated": "2026-04-19T19:29:29.548Z"
   }
 }
