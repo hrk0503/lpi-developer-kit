@@ -38,3 +38,5 @@ What I found most interesting is how knowledge from one system can be reused glo
 The energy sector deals with a lot of complexity — large-scale systems, real-time data, and decisions that impact millions. SMILE provides a structured way to manage this by focusing on clear outcomes like building a stable and sustainable energy system.
 
 This also connects with my academic interests. I am planning my major and minor projects around AI and sustainability, and I feel this methodology gives a clear direction on how to approach such complex real-world problems.
+
+<!-- level 2 submission -->
