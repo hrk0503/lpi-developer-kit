@@ -51,13 +51,32 @@ Output:
 
 ---
 
-## Explainability
+## Explainability (Detailed)
 
-The agent clearly traces its output to the tools used.
+The agent does not just generate answers — it traces them back to tool outputs.
 
-It cites results from smile_overview and query_knowledge, ensuring the user understands where the recommendations come from.
+For example:
+- Data from `smile_overview` provides structured learning methodology
+- Data from `query_knowledge` retrieves topic-specific concepts
+
+The agent uses this retrieved data to generate recommendations **because** it identifies gaps between conceptual understanding and application.
+
+This ensures that every output is grounded in tool-derived knowledge rather than generic LLM responses.
 
 ---
+## System Design Thinking
+
+I considered multiple approaches before finalizing the design.
+
+Initially, I used static responses, but I realized that this does not reflect real agent behavior. I decided to simulate tool execution using subprocess calls to better represent how agents interact with external systems.
+
+This approach allows the agent to be extended easily:
+- Replace subprocess with real API calls
+- Add memory layer for user tracking
+- Integrate additional tools without changing core logic
+
+This makes the system modular and closer to production-ready architecture.
+
 
 ## Key Decisions
 
