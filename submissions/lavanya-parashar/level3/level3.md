@@ -63,6 +63,9 @@ Better ability to predict how many people will need to go to the hospital and mo
 The SMILE methodology is a great way to design digital twin systems that can grow. The main point that comes up in energy, smart cities, and healthcare is that systems work better and smarter when you start with impact-first thinking.
 
 ---
+## LPI Tool Evidence
+
+Full raw outputs from LPI tools are included in `lpi-evidence.md`.
 
 ## Sources
 
