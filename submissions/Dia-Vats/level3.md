@@ -1,4 +1,4 @@
-# Level 3 Submission Dia Vats
+# Level 3 Submission : Dia Vats
 
 ## Agent Repository
 https://github.com/Diavats/LPI-AI-agent
@@ -86,6 +86,9 @@ Output:
 ## A2A Agent Card
 Included as `agent.json` in the repository root. Describes capabilities,
 LPI tools used, security properties, explainability approach, and runtime.
+
+## Agent Files
+- `HOW_I_DID_IT.md` included in agent repo - documents decisions, surprises, and what I'd do differently.
 
 ## What I learned
 Working on this ai agent, I noticed that connecting raw health numbers to SMILE phases required more context than I expected. The get_insights tool surprised me with
