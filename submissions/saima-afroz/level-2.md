@@ -1,5 +1,9 @@
 # Level 2 Submission — Saima Afroz
-Track B - Content and Research
+
+## Track: B — Digital Twin Analysis (Case Studies)
+
+---
+
 ## Sandbox Execution
 
 To understand the SMILE methodology in practice, I set up and ran the LPI Developer Kit on my system.
@@ -25,9 +29,9 @@ This confirmed that the LPI sandbox was working correctly and ready for use.
 
 ## Introduction
 
-The SMILE (Sustainable Methodology for Impact Lifecycle Enablement) framework is a structured approach for building digital twins. It helps transform real-world data into meaningful insights and supports better decision-making.
+The SMILE (Sustainable Methodology for Impact Lifecycle Enablement) framework is a structured approach for building digital twins. After exploring the SMILE methodology using the LPI tools and reviewing case studies, I understood how it can be applied in real-world industries.
 
-In healthcare, digital twins can represent patients, medical systems, or hospital processes, enabling improved monitoring, prediction, and treatment.
+In healthcare, SMILE helps transform patient data into actionable insights, enabling better monitoring, prediction, and treatment decisions.
 
 ---
 
@@ -59,9 +63,11 @@ The system continuously updates with new data, improving accuracy and enhancing 
 
 ---
 
-## Real-World Example
+## Real-World Application (Based on Case Studies)
 
-Wearable devices such as smartwatches track health data in real time. Hospitals also use patient monitoring systems, especially in ICUs, to create digital representations of patients and track their conditions continuously.
+From the case studies explored in the LPI sandbox, healthcare systems use digital twins to monitor patients in real time. For example, wearable devices and ICU monitoring systems continuously collect patient data and update digital models.
+
+This allows doctors to detect abnormalities early, predict health risks, and take timely action, improving patient outcomes.
 
 ---
 
@@ -78,5 +84,6 @@ Wearable devices such as smartwatches track health data in real time. Hospitals 
 
 The SMILE methodology enables smarter healthcare systems by combining data, AI, and continuous monitoring. It transforms healthcare from a reactive approach to a proactive and predictive system.
 
-Overall, SMILE improves efficiency, enhances decision-making, and leads to better patient outcomes.
-lized medical decisions.
+Overall, SMILE improves efficiency, enhances decision-making, and leads to better patient outcomes. This understanding is based on insights from the SMILE methodology and case studies available in the LPI Developer Kit.
+
+---
