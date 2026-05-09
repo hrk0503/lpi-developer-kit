@@ -33,9 +33,14 @@ st.set_page_config(
 # ── Neo4j connection (cached) ─────────────────────────────────────────────────
 @st.cache_resource
 def get_driver():
-    uri      = st.secrets.get("NEO4J_URI",      os.getenv("NEO4J_URI",      ""))
-    user     = st.secrets.get("NEO4J_USER",     os.getenv("NEO4J_USER",     "neo4j"))
-    password = st.secrets.get("NEO4J_PASSWORD", os.getenv("NEO4J_PASSWORD", ""))
+    try:
+        uri      = st.secrets.get("NEO4J_URI",      os.getenv("NEO4J_URI",      ""))
+        user     = st.secrets.get("NEO4J_USER",     os.getenv("NEO4J_USER",     "neo4j"))
+        password = st.secrets.get("NEO4J_PASSWORD", os.getenv("NEO4J_PASSWORD", ""))
+    except FileNotFoundError:
+        uri      = os.getenv("NEO4J_URI",      "")
+        user     = os.getenv("NEO4J_USER",     "neo4j")
+        password = os.getenv("NEO4J_PASSWORD", "")
     return GraphDatabase.driver(uri, auth=(user, password))
 
 
